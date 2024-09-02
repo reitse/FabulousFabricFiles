@@ -1,0 +1,12 @@
+CREATE SCHEMA HUH;
+GO
+
+CREATE TABLE HUH.SURE 
+( ID int identity(1,1) PRIMARY KEY);
+
+CREATE TABLE dbo.[HUH.SURE]
+(NOID int identity(1,1) PRIMARY KEY);
+
+EXEC sp_help HUH.SURE ;
+EXEC sp_help [HUH.SURE];
+EXEC sp_help '[HUH].[SURE]';
